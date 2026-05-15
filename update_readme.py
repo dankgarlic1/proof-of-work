@@ -17,7 +17,6 @@ if os.path.exists(config_file):
 else:
     print("Warning: config.json not found. Fetching PRs from all organizations.")
 
-role = ['MEMBER', 'CONTRIBUTOR']
 user = g.get_user()
 username = user.login
 query = f"author:{username} type:pr"
@@ -26,21 +25,20 @@ prs_by_org = defaultdict(list)
 try:
     prs = g.search_issues(query=query)
     for pr in prs:
-        if pr.author_association in role:
-            org_name = pr.repository.full_name.split("/")[0]
-            if not orgs_to_track or org_name in orgs_to_track:
-                repo = g.get_repo(pr.repository.full_name)
-                full_pr = repo.get_pull(pr.number)
-                prs_by_org[org_name].append({
-                    "repo": pr.repository.name,
-                    "full_name": pr.repository.full_name,
-                    "number": pr.number,
-                    "title": pr.title,
-                    "state": "Merged" if full_pr.merged_at else pr.state.capitalize(),
-                    "url": pr.html_url,
-                    "created_at": pr.created_at.strftime("%Y-%m-%d"),
-                    "merged_at": full_pr.merged_at.strftime("%Y-%m-%d") if full_pr.merged_at else None
-                })
+        org_name = pr.repository.full_name.split("/")[0]
+        if not orgs_to_track or org_name in orgs_to_track:
+            repo = g.get_repo(pr.repository.full_name)
+            full_pr = repo.get_pull(pr.number)
+            prs_by_org[org_name].append({
+                "repo": pr.repository.name,
+                "full_name": pr.repository.full_name,
+                "number": pr.number,
+                "title": pr.title,
+                "state": "Merged" if full_pr.merged_at else pr.state.capitalize(),
+                "url": pr.html_url,
+                "created_at": pr.created_at.strftime("%Y-%m-%d"),
+                "merged_at": full_pr.merged_at.strftime("%Y-%m-%d") if full_pr.merged_at else None
+            })
 except Exception as e:
     print(f"Err fetcing PRs: {e}")
     exit(1)
