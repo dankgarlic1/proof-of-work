@@ -2,11 +2,12 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 7 | **Merged PRs**: 5
+**Total PRs**: 8 | **Merged PRs**: 6
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| meet | feat: refactor layout to support multiple pinned tiles | Merged | 2026-05-24 | 2026-05-28 | [PR #59](https://github.com/frappe/meet/pull/59) |
 | meet | fix: return clean error message for invalid meeting links | Merged | 2026-05-14 | 2026-05-17 | [PR #55](https://github.com/frappe/meet/pull/55) |
 | helpdesk | feat: change ticket ID format to string-based naming series | Merged | 2026-05-04 | 2026-05-15 | [PR #3276](https://github.com/frappe/helpdesk/pull/3276) |
 | helpdesk | chore: auto-format test file using black | Merged | 2026-04-14 | 2026-04-14 | [PR #3217](https://github.com/frappe/helpdesk/pull/3217) |
