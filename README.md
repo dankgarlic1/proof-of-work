@@ -2,7 +2,7 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 12 | **Merged PRs**: 7
+**Total PRs**: 13 | **Merged PRs**: 7
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
@@ -21,6 +21,7 @@ My open-source contributions to public organizations.
 ## Organization: twentyhq
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| twenty | fix: enforce strict rules for currency value handling by ai chatbot | Open | 2026-06-12 | None | [PR #21470](https://github.com/twentyhq/twenty/pull/21470) |
 | twenty | fix: resolve timeline crashes by cleaning orphan message association | Open | 2026-06-11 | None | [PR #21469](https://github.com/twentyhq/twenty/pull/21469) |
 | twenty | fix(smtp): respect user encryption settings for nodemailer transport | Open | 2026-06-11 | None | [PR #21431](https://github.com/twentyhq/twenty/pull/21431) |
 
