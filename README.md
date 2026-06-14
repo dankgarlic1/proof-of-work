@@ -22,6 +22,6 @@ My open-source contributions to public organizations.
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
 | twenty | fix: enforce strict rules for currency value handling by ai chatbot | Open | 2026-06-12 | None | [PR #21470](https://github.com/twentyhq/twenty/pull/21470) |
-| twenty | fix: resolve timeline crashes by cleaning orphan message association | Open | 2026-06-11 | None | [PR #21469](https://github.com/twentyhq/twenty/pull/21469) |
-| twenty | fix(smtp): respect user encryption settings for nodemailer transport | Open | 2026-06-11 | None | [PR #21431](https://github.com/twentyhq/twenty/pull/21431) |
+| twenty | fix: resolve timeline crashes by cleaning orphan message association | Closed | 2026-06-11 | None | [PR #21469](https://github.com/twentyhq/twenty/pull/21469) |
+| twenty | fix(smtp): respect user encryption settings for nodemailer transport | Closed | 2026-06-11 | None | [PR #21431](https://github.com/twentyhq/twenty/pull/21431) |
 
