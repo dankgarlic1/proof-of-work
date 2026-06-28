@@ -2,13 +2,14 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 14 | **Merged PRs**: 8
+**Total PRs**: 15 | **Merged PRs**: 8
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| suite | feat(meet): add interactive polling to meeting chat | Open | 2026-06-25 | None | [PR #76](https://github.com/frappe/suite/pull/76) |
 | meet | feat: allow host only chat | Merged | 2026-05-30 | 2026-06-05 | [PR #63](https://github.com/frappe/meet/pull/63) |
-| meet | feat: polls in chat | Open | 2026-05-29 | None | [PR #62](https://github.com/frappe/meet/pull/62) |
+| meet | feat: polls in chat | Closed | 2026-05-29 | None | [PR #62](https://github.com/frappe/meet/pull/62) |
 | meet | feat: refactor layout to support multiple pinned tiles | Merged | 2026-05-24 | 2026-05-28 | [PR #59](https://github.com/frappe/meet/pull/59) |
 | meet | fix: return clean error message for invalid meeting links | Merged | 2026-05-14 | 2026-05-17 | [PR #55](https://github.com/frappe/meet/pull/55) |
 | helpdesk | feat: change ticket ID format to string-based naming series | Merged | 2026-05-04 | 2026-05-15 | [PR #3276](https://github.com/frappe/helpdesk/pull/3276) |
