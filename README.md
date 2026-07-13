@@ -2,7 +2,7 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 18 | **Merged PRs**: 9
+**Total PRs**: 18 | **Merged PRs**: 10
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
@@ -22,7 +22,7 @@ My open-source contributions to public organizations.
 ## Organization: twentyhq
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
-| twenty | fix(front): allow dismissing [Credits limit reached] banner | Open | 2026-07-11 | None | [PR #22843](https://github.com/twentyhq/twenty/pull/22843) |
+| twenty | fix(front): allow dismissing [Credits limit reached] banner | Merged | 2026-07-11 | 2026-07-13 | [PR #22843](https://github.com/twentyhq/twenty/pull/22843) |
 | twenty | fix(i18n): localize database-seeded command menu and navigation items (#22009, #22697) | Open | 2026-07-09 | None | [PR #22709](https://github.com/twentyhq/twenty/pull/22709) |
 | twenty | fix(twenty-server): resolve front component by universalIdentifier | Open | 2026-07-06 | None | [PR #22602](https://github.com/twentyhq/twenty/pull/22602) |
 | twenty | fix: allow null phone default values in phones field schema | Closed | 2026-06-18 | None | [PR #21782](https://github.com/twentyhq/twenty/pull/21782) |
