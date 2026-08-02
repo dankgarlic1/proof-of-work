@@ -25,7 +25,7 @@ My open-source contributions to public organizations.
 | twenty | fix(server): periodically re-sync upgrade-aware metadata adapter after boot | Closed | 2026-07-14 | None | [PR #22890](https://github.com/twentyhq/twenty/pull/22890) |
 | twenty | fix(front): allow dismissing [Credits limit reached] banner | Merged | 2026-07-11 | 2026-07-13 | [PR #22843](https://github.com/twentyhq/twenty/pull/22843) |
 | twenty | fix(i18n): localize database-seeded command menu and navigation items (#22009, #22697) | Open | 2026-07-09 | None | [PR #22709](https://github.com/twentyhq/twenty/pull/22709) |
-| twenty | fix(twenty-server): resolve front component by universalIdentifier | Open | 2026-07-06 | None | [PR #22602](https://github.com/twentyhq/twenty/pull/22602) |
+| twenty | fix(twenty-server): resolve front component by universalIdentifier | Closed | 2026-07-06 | None | [PR #22602](https://github.com/twentyhq/twenty/pull/22602) |
 | twenty | fix: allow null phone default values in phones field schema | Closed | 2026-06-18 | None | [PR #21782](https://github.com/twentyhq/twenty/pull/21782) |
 | twenty | fix: enforce strict rules for currency value handling by ai chatbot | Merged | 2026-06-12 | 2026-06-18 | [PR #21470](https://github.com/twentyhq/twenty/pull/21470) |
 | twenty | fix: resolve timeline crashes by cleaning orphan message association | Closed | 2026-06-11 | None | [PR #21469](https://github.com/twentyhq/twenty/pull/21469) |
