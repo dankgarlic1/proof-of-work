@@ -68,6 +68,11 @@ for org in ordered_orgs:
         for pr in sorted(prs, key=lambda x: x["created_at"], reverse=True):
             readme_content += f"| {pr['repo']} | {pr['title']} | {pr['state']} | {pr['created_at']} | {pr['merged_at']} | [PR #{pr['number']}]({pr['url']}) |\n"
         readme_content += "\n"
+        
+readme_content += "## Security Disclosures & Co-Authored PRs\n"
+readme_content += "| Repository | PR Title | Status | Date | Link |\n"
+readme_content += "|------------|----------|--------|------|------|\n"
+readme_content += "| frappe/suite | fix(meet): restrict presence previews (IDOR Patch) | Merged | 2026-08-25 | [PR #729](https://github.com/frappe/suite/pull/729) |\n\n"        
 
 with open("README.md", "w") as f:
     f.write(readme_content)
