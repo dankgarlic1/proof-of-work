@@ -31,3 +31,8 @@ My open-source contributions to public organizations.
 | twenty | fix: resolve timeline crashes by cleaning orphan message association | Closed | 2026-06-11 | None | [PR #21469](https://github.com/twentyhq/twenty/pull/21469) |
 | twenty | fix(smtp): respect user encryption settings for nodemailer transport | Closed | 2026-06-11 | None | [PR #21431](https://github.com/twentyhq/twenty/pull/21431) |
 
+## Security Disclosures & Co-Authored PRs
+| Repository | PR Title | Status | Date | Link |
+|------------|----------|--------|------|------|
+| frappe/suite | fix(meet): restrict presence previews (IDOR Patch) | Merged | 2026-08-25 | [PR #729](https://github.com/frappe/suite/pull/729) |
+
