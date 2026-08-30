@@ -2,11 +2,12 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 19 | **Merged PRs**: 10
+**Total PRs**: 20 | **Merged PRs**: 10
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| suite | feat(meet): apply dynamic rate limits to all public endpoints | Open | 2026-08-25 | None | [PR #734](https://github.com/frappe/suite/pull/734) |
 | suite | feat(meet): add interactive polling to meeting chat | Merged | 2026-06-25 | 2026-07-02 | [PR #76](https://github.com/frappe/suite/pull/76) |
 | meet | feat: allow host only chat | Merged | 2026-05-30 | 2026-06-05 | [PR #63](https://github.com/frappe/meet/pull/63) |
 | meet | feat: polls in chat | Closed | 2026-05-29 | None | [PR #62](https://github.com/frappe/meet/pull/62) |
