@@ -2,12 +2,12 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 20 | **Merged PRs**: 10
+**Total PRs**: 20 | **Merged PRs**: 11
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
-| suite | feat(meet): apply dynamic rate limits to all public endpoints | Open | 2026-08-25 | None | [PR #734](https://github.com/frappe/suite/pull/734) |
+| suite | feat(meet): apply dynamic rate limits to all public endpoints | Merged | 2026-08-25 | 2026-09-01 | [PR #734](https://github.com/frappe/suite/pull/734) |
 | suite | feat(meet): add interactive polling to meeting chat | Merged | 2026-06-25 | 2026-07-02 | [PR #76](https://github.com/frappe/suite/pull/76) |
 | meet | feat: allow host only chat | Merged | 2026-05-30 | 2026-06-05 | [PR #63](https://github.com/frappe/meet/pull/63) |
 | meet | feat: polls in chat | Closed | 2026-05-29 | None | [PR #62](https://github.com/frappe/meet/pull/62) |
@@ -25,7 +25,7 @@ My open-source contributions to public organizations.
 |------------|----------|--------|------------|-----------|------|
 | twenty | fix(server): periodically re-sync upgrade-aware metadata adapter after boot | Closed | 2026-07-14 | None | [PR #22890](https://github.com/twentyhq/twenty/pull/22890) |
 | twenty | fix(front): allow dismissing [Credits limit reached] banner | Merged | 2026-07-11 | 2026-07-13 | [PR #22843](https://github.com/twentyhq/twenty/pull/22843) |
-| twenty | fix(i18n): localize database-seeded command menu and navigation items (#22009, #22697) | Open | 2026-07-09 | None | [PR #22709](https://github.com/twentyhq/twenty/pull/22709) |
+| twenty | fix(i18n): localize database-seeded command menu and navigation items (#22009, #22697) | Closed | 2026-07-09 | None | [PR #22709](https://github.com/twentyhq/twenty/pull/22709) |
 | twenty | fix(twenty-server): resolve front component by universalIdentifier | Closed | 2026-07-06 | None | [PR #22602](https://github.com/twentyhq/twenty/pull/22602) |
 | twenty | fix: allow null phone default values in phones field schema | Closed | 2026-06-18 | None | [PR #21782](https://github.com/twentyhq/twenty/pull/21782) |
 | twenty | fix: enforce strict rules for currency value handling by ai chatbot | Merged | 2026-06-12 | 2026-06-18 | [PR #21470](https://github.com/twentyhq/twenty/pull/21470) |
