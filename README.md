@@ -2,11 +2,13 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 23 | **Merged PRs**: 13
+**Total PRs**: 25 | **Merged PRs**: 13
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| pypika | fix(sqlite): compose Interval and Now() into datetime() modifiers | Open | 2026-09-15 | None | [PR #9](https://github.com/frappe/pypika/pull/9) |
+| frappe | feat: extend @rate_limit decorator with user_based tracking | Open | 2026-09-14 | None | [PR #42815](https://github.com/frappe/frappe/pull/42815) |
 | frappe | fix(tags): prevent Document.get_tags from dropping the first tag | Merged | 2026-09-09 | 2026-09-09 | [PR #42653](https://github.com/frappe/frappe/pull/42653) |
 | frappe | fix: implicitly fetch parent name for child queries in QB | Merged | 2026-09-08 | 2026-09-10 | [PR #42639](https://github.com/frappe/frappe/pull/42639) |
 | frappe | fix(user): prevent destructive overwrite in bulk role update | Open | 2026-09-07 | None | [PR #42581](https://github.com/frappe/frappe/pull/42581) |
