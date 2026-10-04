@@ -2,14 +2,17 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 27 | **Merged PRs**: 15
+**Total PRs**: 30 | **Merged PRs**: 19
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| frappe | fix(deps): bump PyPika to fix arithmetic with Table and subquery oper… | Merged | 2026-10-03 | 2026-10-03 | [PR #43779](https://github.com/frappe/frappe/pull/43779) |
+| pypika | fix(interval): use isinstance for the Interval arithmetic override | Merged | 2026-10-03 | 2026-10-03 | [PR #11](https://github.com/frappe/pypika/pull/11) |
+| frappe | chore(deps): bump PyPika to fix SQLite interval math coercion | Merged | 2026-10-01 | 2026-10-01 | [PR #43725](https://github.com/frappe/frappe/pull/43725) |
 | frappe | fix(data-import): parse numbers using the user's number format | Merged | 2026-09-24 | 2026-09-24 | [PR #43308](https://github.com/frappe/frappe/pull/43308) |
 | frappe | feat(audit_hook): add PEP 578 audit hook to prevent path traversal | Open | 2026-09-21 | None | [PR #43098](https://github.com/frappe/frappe/pull/43098) |
-| pypika | fix(sqlite): compose Interval and Now() into datetime() modifiers | Open | 2026-09-15 | None | [PR #9](https://github.com/frappe/pypika/pull/9) |
+| pypika | fix(sqlite): compose Interval and Now() into datetime() modifiers | Merged | 2026-09-15 | 2026-10-01 | [PR #9](https://github.com/frappe/pypika/pull/9) |
 | frappe | feat: extend @rate_limit decorator with user_based tracking | Merged | 2026-09-14 | 2026-09-22 | [PR #42815](https://github.com/frappe/frappe/pull/42815) |
 | frappe | fix(tags): prevent Document.get_tags from dropping the first tag | Merged | 2026-09-09 | 2026-09-09 | [PR #42653](https://github.com/frappe/frappe/pull/42653) |
 | frappe | fix: implicitly fetch parent name for child queries in QB | Merged | 2026-09-08 | 2026-09-10 | [PR #42639](https://github.com/frappe/frappe/pull/42639) |
