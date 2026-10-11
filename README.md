@@ -2,11 +2,13 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 30 | **Merged PRs**: 19
+**Total PRs**: 32 | **Merged PRs**: 20
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| frappe | fix(dry-run): prevent --dry-run from executing uninstall hooks | Open | 2026-10-08 | None | [PR #44174](https://github.com/frappe/frappe/pull/44174) |
+| frappe | fix(intsallation): allow retrying failed app installations | Open | 2026-10-08 | None | [PR #44171](https://github.com/frappe/frappe/pull/44171) |
 | frappe | fix(deps): bump PyPika to fix arithmetic with Table and subquery oper… | Merged | 2026-10-03 | 2026-10-03 | [PR #43779](https://github.com/frappe/frappe/pull/43779) |
 | pypika | fix(interval): use isinstance for the Interval arithmetic override | Merged | 2026-10-03 | 2026-10-03 | [PR #11](https://github.com/frappe/pypika/pull/11) |
 | frappe | chore(deps): bump PyPika to fix SQLite interval math coercion | Merged | 2026-10-01 | 2026-10-01 | [PR #43725](https://github.com/frappe/frappe/pull/43725) |
@@ -16,7 +18,7 @@ My open-source contributions to public organizations.
 | frappe | feat: extend @rate_limit decorator with user_based tracking | Merged | 2026-09-14 | 2026-09-22 | [PR #42815](https://github.com/frappe/frappe/pull/42815) |
 | frappe | fix(tags): prevent Document.get_tags from dropping the first tag | Merged | 2026-09-09 | 2026-09-09 | [PR #42653](https://github.com/frappe/frappe/pull/42653) |
 | frappe | fix: implicitly fetch parent name for child queries in QB | Merged | 2026-09-08 | 2026-09-10 | [PR #42639](https://github.com/frappe/frappe/pull/42639) |
-| frappe | feat(user): add dedicated "Add Roles" and "Remove Roles" bulk actions | Open | 2026-09-07 | None | [PR #42581](https://github.com/frappe/frappe/pull/42581) |
+| frappe | feat(user): add dedicated "Add Roles" and "Remove Roles" bulk actions | Merged | 2026-09-07 | 2026-10-06 | [PR #42581](https://github.com/frappe/frappe/pull/42581) |
 | suite | feat(meet): apply dynamic rate limits to all public endpoints | Merged | 2026-08-25 | 2026-09-01 | [PR #734](https://github.com/frappe/suite/pull/734) |
 | suite | feat(meet): add interactive polling to meeting chat | Merged | 2026-06-25 | 2026-07-02 | [PR #76](https://github.com/frappe/suite/pull/76) |
 | meet | feat: allow host only chat | Merged | 2026-05-30 | 2026-06-05 | [PR #63](https://github.com/frappe/meet/pull/63) |
