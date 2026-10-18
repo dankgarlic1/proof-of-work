@@ -2,13 +2,16 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 32 | **Merged PRs**: 20
+**Total PRs**: 35 | **Merged PRs**: 25
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
-| frappe | fix(dry-run): prevent --dry-run from executing uninstall hooks | Open | 2026-10-08 | None | [PR #44174](https://github.com/frappe/frappe/pull/44174) |
-| frappe | fix(intsallation): allow retrying failed app installations | Open | 2026-10-08 | None | [PR #44171](https://github.com/frappe/frappe/pull/44171) |
+| frappe | fix(uninstall): let a failed uninstall be finished by running it again (backport #44335) | Merged | 2026-10-14 | 2026-10-14 | [PR #44429](https://github.com/frappe/frappe/pull/44429) |
+| frappe | fix(installer): don't let an app missing from the bench block other apps | Merged | 2026-10-13 | 2026-10-14 | [PR #44386](https://github.com/frappe/frappe/pull/44386) |
+| frappe | fix(uninstall): let a failed uninstall be finished by running it again | Merged | 2026-10-12 | 2026-10-13 | [PR #44335](https://github.com/frappe/frappe/pull/44335) |
+| frappe | fix(dry-run): prevent --dry-run from executing uninstall hooks | Merged | 2026-10-08 | 2026-10-12 | [PR #44174](https://github.com/frappe/frappe/pull/44174) |
+| frappe | fix(installation): allow retrying failed app installations | Merged | 2026-10-08 | 2026-10-12 | [PR #44171](https://github.com/frappe/frappe/pull/44171) |
 | frappe | fix(deps): bump PyPika to fix arithmetic with Table and subquery oper… | Merged | 2026-10-03 | 2026-10-03 | [PR #43779](https://github.com/frappe/frappe/pull/43779) |
 | pypika | fix(interval): use isinstance for the Interval arithmetic override | Merged | 2026-10-03 | 2026-10-03 | [PR #11](https://github.com/frappe/pypika/pull/11) |
 | frappe | chore(deps): bump PyPika to fix SQLite interval math coercion | Merged | 2026-10-01 | 2026-10-01 | [PR #43725](https://github.com/frappe/frappe/pull/43725) |
