@@ -2,11 +2,13 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 38 | **Merged PRs**: 28
+**Total PRs**: 40 | **Merged PRs**: 30
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| frappe | test(uninstall): retry a failed uninstall without --force | Merged | 2026-10-30 | 2026-10-30 | [PR #45933](https://github.com/frappe/frappe/pull/45933) |
+| frappe | fix(build): keep the caller's Node heap limit | Merged | 2026-10-29 | 2026-10-30 | [PR #45777](https://github.com/frappe/frappe/pull/45777) |
 | frappe | fix(tests): rename test_runner.py files so CI discovers them | Merged | 2026-10-21 | 2026-10-21 | [PR #44834](https://github.com/frappe/frappe/pull/44834) |
 | frappe | feat(runner): run web, realtime and jobs in one process (backport #41867) | Merged | 2026-10-21 | 2026-10-21 | [PR #44826](https://github.com/frappe/frappe/pull/44826) |
 | frappe | feat(realtime): optional Python realtime server (backport #41845) | Merged | 2026-10-20 | 2026-10-20 | [PR #44806](https://github.com/frappe/frappe/pull/44806) |
