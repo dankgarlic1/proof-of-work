@@ -2,11 +2,13 @@
 
 My open-source contributions to public organizations.
 
-**Total PRs**: 40 | **Merged PRs**: 30
+**Total PRs**: 42 | **Merged PRs**: 31
 
 ## Organization: frappe
 | Repository | PR Title | Status | Created At | Merged At | Link |
 |------------|----------|--------|------------|-----------|------|
+| frappe | fix(perms)!: add back a removed rule with the same defaults as a new rule | Open | 2026-11-13 | None | [PR #47360](https://github.com/frappe/frappe/pull/47360) |
+| frappe | fix(tests): delete blog posts left behind by if_owner permission tests | Merged | 2026-11-13 | 2026-11-13 | [PR #47356](https://github.com/frappe/frappe/pull/47356) |
 | frappe | test(uninstall): retry a failed uninstall without --force | Merged | 2026-10-30 | 2026-10-30 | [PR #45933](https://github.com/frappe/frappe/pull/45933) |
 | frappe | fix(build): keep the caller's Node heap limit | Merged | 2026-10-29 | 2026-10-30 | [PR #45777](https://github.com/frappe/frappe/pull/45777) |
 | frappe | fix(tests): rename test_runner.py files so CI discovers them | Merged | 2026-10-21 | 2026-10-21 | [PR #44834](https://github.com/frappe/frappe/pull/44834) |
